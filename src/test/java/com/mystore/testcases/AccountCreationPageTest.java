@@ -25,7 +25,7 @@ public class AccountCreationPageTest extends BaseClass {
 		launchApp(browser); 
 	}
 	
-	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
+	@AfterMethod(groups = {"Smoke","Sanity"})
 	public void tearDown() {
 		getDriver().quit();
 	}
